@@ -1,0 +1,14 @@
+@mixin theme-mixin($backcolor){
+  .theme-background{
+    background-color: $backcolor;
+  }
+}
+.themea{
+  @include theme-mixin(#F78989);
+}
+.themeb{
+  @include theme-mixin(#63B0FF);
+}
+.themec{
+  @include theme-mixin(#79C952);
+}

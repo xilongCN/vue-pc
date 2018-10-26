@@ -1,0 +1,10 @@
+/*基础样式文件*/
+@import "variable.scss";
+html,body{
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  color:#000;
+  font-size:14px;
+}
+a:hover, a:visited, a:link, a:active{
+  color: #000000;
+}
