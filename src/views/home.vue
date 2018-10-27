@@ -10,6 +10,7 @@
                 active-text-color="#ffd04b">
             <el-menu-item v-for="(item,index) in themeData" :key="index" class="menu-item" :index="item.index">{{item.title}}</el-menu-item>
         </el-menu>
+        <router-view></router-view>
     </div>
 </template>
 
@@ -27,12 +28,12 @@ export default {
         },
         {
           index: '1',
-          to: '/',
+          to: 'test1',
           title: '待定1'
         },
         {
           index: '2',
-          to: '/',
+          to: 'test2',
           title: '待定2'
         }
       ],
