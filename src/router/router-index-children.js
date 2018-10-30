@@ -7,16 +7,25 @@ export default [
     {
         path: '/theme',
         name: 'theme',
-        component: () => import('@/views/index/theme.vue')
+        component: () => import('@/views/index/theme.vue'),
+        meta:{
+            index:0
+        }
     },
     {
-        path: '/test1',
-        name: 'test1',
-        component: () => import('@/views/index/test1.vue')
+        path: '/animation',
+        name: 'animation',
+        component: () => import('@/views/index/animation.vue'),
+        meta:{
+            index:1
+        }
     },
     {
         path: '/test2',
         name: 'test2',
-        component: () => import('@/views/index/test2.vue')
+        component: () => import('@/views/index/test2.vue'),
+        meta:{
+            index:2
+        }
     }
 ]
